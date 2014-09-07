@@ -1,0 +1,45 @@
+@media all and (min-width: 768px) {
+  .mail-right {
+    left:430px
+  }
+}
+
+body {
+  background-image:url(bgone.jpg);
+  background-attachment:fixed;
+  overflow-x: hidden;
+  font-family:"Lucida Sans Unicode";
+  font-style:normal;
+}
+
+.name {
+  font-size:36px;
+  font-weight:100;
+  color:#006633;
+}
+
+.top-hr {
+  margin-top:-8px;
+  border-color:#000;
+  margin-bottom:3px;
+}
+
+.footer-hr {
+  margin-top:0px;
+  border-color:#000;
+  margin-bottom:3px;
+}
+
+.heading {
+  font-size:18px;
+  font-weight:100;
+  color:#339966;
+}
+
+.middle {
+  text-align:center
+}
+
+.top-pad {
+  margin-top:10px;
+}
