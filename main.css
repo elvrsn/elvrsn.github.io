@@ -5,9 +5,9 @@
 }
 
 body {
-  background-image:url(bgone.jpg);
+  /*background-image:url(bgone.jpg);
   background-attachment:fixed;
-  overflow-x: hidden;
+  overflow-x: hidden;*/
   font-family:"Lucida Sans Unicode";
   font-style:normal;
 }
