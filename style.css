@@ -2430,13 +2430,13 @@ header nav a:last-child {
 
 /* Media Queries */
 
-@media (min-width: 1281px) {
+@media (min-width: 1281px), (min-device-width: 1281px){
 #header {
 	height: 0;
 }
 }
 
-@media (min-width: 981px) and (max-width: 1280px) {
+@media (min-width: 981px) and (max-width: 1280px), (min-device-width: 981px) and (max-device-width: 1280px){
 body {
 	padding-top:0;
 }
@@ -2448,7 +2448,7 @@ body {
 }
 }
 
-@media (min-width: 481px) and (max-width: 980px) {
+@media (min-width: 481px) and (max-width: 980px), (min-device-width: 481px) and (max-device-width: 980px) {
 body {
 	padding-top:0;
 }
@@ -2492,7 +2492,7 @@ header > div, header > div h1, header nav {
 }
 
 
-@media (min-width: 321px) and (max-width: 480px) {
+@media (min-width: 321px) and (max-width: 480px), (min-device-width: 321px) and (max-device-width: 480px) {
 body {
 	padding-top:0;
 }
@@ -2545,7 +2545,7 @@ header > div, header > div h1, header nav {
 }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 320px), (max-device-width: 320px) {
 body {
 	padding-top:0;
 }
