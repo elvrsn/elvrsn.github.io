@@ -2567,7 +2567,7 @@ header > div, header > div h1, header nav {
 	width: -webkit-calc(100% / 1);
 	width: calc(100% / 1);
 }
-#experience, #education, #awards {
+#experience, #education, #projects {
 	max-width: 700px;
 }
 .project-items li a div h5, .hobbies-items li a div h5{
@@ -2592,7 +2592,7 @@ body {
 .popup {
  	font-size: 1.1em;
 }
-#experience, #education, #awards {
+#experience, #education, #projects {
 	max-width: 800px;
 }
 .footer-copyright, .footer-attribution, .footer-attribution {
