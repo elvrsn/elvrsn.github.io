@@ -5,10 +5,10 @@ html {
 }
 
 /*
- * Remove text-shadow in selection highlight: h5bp.com/i
- * These selection rule sets have to be separate.
- * Customize the background color to match your design.
- */
+ *  * Remove text-shadow in selection highlight: h5bp.com/i
+ *   * These selection rule sets have to be separate.
+ *    * Customize the background color to match your design.
+ *     */
 
 ::-moz-selection {
     background: #b3d4fc;
@@ -21,8 +21,8 @@ html {
 }
 
 /*
- * A better looking default horizontal rule
- */
+ *  * A better looking default horizontal rule
+ *   */
 
 hr {
     display: block;
@@ -34,9 +34,9 @@ hr {
 }
 
 /*
- * Remove the gap between images, videos, audio and canvas and the bottom of
- * their containers: h5bp.com/i/440
- */
+ *  * Remove the gap between images, videos, audio and canvas and the bottom of
+ *   * their containers: h5bp.com/i/440
+ *    */
 
 audio,
 canvas,
@@ -47,8 +47,8 @@ video {
 }
 
 /*
- * Remove default fieldset styles.
- */
+ *  * Remove default fieldset styles.
+ *   */
 
 fieldset {
     border: 0;
@@ -57,16 +57,16 @@ fieldset {
 }
 
 /*
- * Allow only vertical resizing of textareas.
- */
+ *  * Allow only vertical resizing of textareas.
+ *   */
 
 textarea {
     resize: vertical;
 }
 
 /* ==========================================================================
-   Browser Upgrade Prompt
-   ========================================================================== */
+ *    Browser Upgrade Prompt
+ *       ========================================================================== */
 
 .browserupgrade {
     margin: 0.2em 0;
@@ -76,15 +76,15 @@ textarea {
 }
 
 /* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
+ *    Author's custom styles
+ *       ========================================================================== */
    
 /*
-|--------------------------------------------------------------------------
-| UItoTop jQuery Plugin 1.2
-| http://www.mattvarone.com/web-design/uitotop-jquery-plugin/
-|--------------------------------------------------------------------------
-*/
+ * |--------------------------------------------------------------------------
+ * | UItoTop jQuery Plugin 1.2
+ * | http://www.mattvarone.com/web-design/uitotop-jquery-plugin/
+ * |--------------------------------------------------------------------------
+ * */
 #toTop {
 	display: none;
 	text-decoration: none;
@@ -1451,12 +1451,12 @@ left: 0;
 
 
 /* ==========================================================================
-   Helper classes
-   ========================================================================== */
+ *    Helper classes
+ *       ========================================================================== */
 
 /*
- * Hide visually and from screen readers: h5bp.com/u
- */
+ *  * Hide visually and from screen readers: h5bp.com/u
+ *   */
 
 .hidden {
     display: none !important;
@@ -1464,8 +1464,8 @@ left: 0;
 }
 
 /*
- * Hide only visually, but have it available for screen readers: h5bp.com/v
- */
+ *  * Hide only visually, but have it available for screen readers: h5bp.com/v
+ *   */
 
 .visuallyhidden {
     border: 0;
@@ -1479,9 +1479,9 @@ left: 0;
 }
 
 /*
- * Extends the .visuallyhidden class to allow the element to be focusable
- * when navigated to via the keyboard: h5bp.com/p
- */
+ *  * Extends the .visuallyhidden class to allow the element to be focusable
+ *   * when navigated to via the keyboard: h5bp.com/p
+ *    */
 
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
@@ -1494,24 +1494,24 @@ left: 0;
 }
 
 /*
- * Hide visually and from screen readers, but maintain layout
- */
+ *  * Hide visually and from screen readers, but maintain layout
+ *   */
 
 .invisible {
     visibility: hidden;
 }
 
 /*
- * Clearfix: contain floats
- *
- * For modern browsers
- * 1. The space content is one way to avoid an Opera bug when the
- *    `contenteditable` attribute is included anywhere else in the document.
- *    Otherwise it causes space to appear at the top and bottom of elements
- *    that receive the `clearfix` class.
- * 2. The use of `table` rather than `block` is only necessary if using
- *    `:before` to contain the top-margins of child elements.
- */
+ *  * Clearfix: contain floats
+ *   *
+ *    * For modern browsers
+ *     * 1. The space content is one way to avoid an Opera bug when the
+ *      *    `contenteditable` attribute is included anywhere else in the document.
+ *       *    Otherwise it causes space to appear at the top and bottom of elements
+ *        *    that receive the `clearfix` class.
+ *         * 2. The use of `table` rather than `block` is only necessary if using
+ *          *    `:before` to contain the top-margins of child elements.
+ *           */
 
 .clearfix:before,
 .clearfix:after {
@@ -1524,10 +1524,10 @@ left: 0;
 }
 
 /* ==========================================================================
-   EXAMPLE Media Queries for Responsive Design.
-   These examples override the primary ('mobile first') styles.
-   Modify as content requires.
-   ========================================================================== */
+ *    EXAMPLE Media Queries for Responsive Design.
+ *       These examples override the primary ('mobile first') styles.
+ *          Modify as content requires.
+ *             ========================================================================== */
 
 @media only screen and (min-width: 35em) {
     /* Style adjustments for viewports that meet the condition */
@@ -1541,9 +1541,9 @@ left: 0;
 }
 
 /* ==========================================================================
-   Print styles.
-   Inlined to avoid the additional HTTP request: h5bp.com/r
-   ========================================================================== */
+ *    Print styles.
+ *       Inlined to avoid the additional HTTP request: h5bp.com/r
+ *          ========================================================================== */
 
 @media print {
     *,
@@ -1569,9 +1569,9 @@ left: 0;
     }
 
     /*
-     * Don't show links that are fragment identifiers,
-     * or use the `javascript:` pseudo protocol
-     */
+ *      * Don't show links that are fragment identifiers,
+ *           * or use the `javascript:` pseudo protocol
+ *                */
 
     a[href^="#"]:after,
     a[href^="javascript:"]:after {
@@ -1620,21 +1620,21 @@ left: 0;
 /* Presume Template HTML Styles */
 
 /* Contents
-===========================        
-	#General
-	#Preloader
-	#Header
-	#About
-	#Skills
-	#Experience
-	#Education
-	#Awards
-	#Hobbies
-	#References
-	#Portfolio
-	#Footer
-	#Media Queries
-*/
+ * ===========================        
+ * 	#General
+ * 		#Preloader
+ * 			#Header
+ * 				#About
+ * 					#Skills
+ * 						#Experience
+ * 							#Education
+ * 								#Awards
+ * 									#Hobbies
+ * 										#References
+ * 											#Portfolio
+ * 												#Footer
+ * 													#Media Queries
+ * 													*/
 
 
 /* General */				 
@@ -2567,7 +2567,7 @@ header > div, header > div h1, header nav {
 	width: -webkit-calc(100% / 1);
 	width: calc(100% / 1);
 }
-#experience, #education, #projects {
+#experience, #education, #awards {
 	max-width: 700px;
 }
 .project-items li a div h5, .hobbies-items li a div h5{
@@ -2579,6 +2579,7 @@ header > div, header > div h1, header nav {
 .footer-copyright, .footer-attribution, .footer-attribution {
 	padding: 10px;
 }
+
 .footer {
 	margin-top: 40px;
 }
@@ -2591,7 +2592,7 @@ body {
 .popup {
  	font-size: 1.1em;
 }
-#experience, #education, #projects {
+#experience, #education, #awards {
 	max-width: 800px;
 }
 .footer-copyright, .footer-attribution, .footer-attribution {
@@ -2610,134 +2611,134 @@ body {
 
 @media print {
 * {
-	background: none !important;
-	color: black !important;
-	box-shadow: none !important;
-	text-shadow: none !important;
-	filter: none !important;
-	-ms-filter: none !important;
-} 
-a, a:visited {
-	text-decoration: underline;
-}
-a[href]:after {
-	content: " (" attr(href) ")"; 
-} 
-a[href="#"], a[href="javascript:"] {
-	content: "";
-}
-body {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 1em;
-}
-.center-post, .skills-items, .hobbies-items {
-	text-align: left;
-}
-header, .mm-fixed-top, #profile-photo, .social-card i, .see-address, .print-page, 
-.download-cv, .about-description, .skill-percent, #portfolio, .cd-testimonials-wrapper, .cd-testimonials-all, 
-.hobbies-items li a, .footer {
-	display: none;
-}
-#section-about, #section-skills, #section-experience, #section-education, #section-awards, #section-hobbies, #section-references {
-	padding: 1px;
-}
-#about-head h3, #skills-head h3, #experience-head h3, #education-head h3, #awards-head h3, #hobbies-head h3, #references-head h3 {
-	font-size: 20px;
-	text-align: left;
-	padding-top: 0;
-	margin-bottom: 0;
-	line-height: 1;
-}
-.site-title, #header-image, #header-image2 {
-	padding: 0;
-	margin-top: 1px;
-}
-.user-title, .social-card, .social-card a {
-	padding: 0;
-}
-.social-card a[href]:after {
-	content: " " attr(href) " ";
-	padding-right: 5px;
-} 
-.skills-items li {
-	padding: 0;
-}
-.skill1-title {
-	padding: 0 0.5em;
-	margin: 0.6em 0;
-}
-.skill2-title {
-	padding: 0 0.5em;
-	margin: 0.1em 0;
-}
-.skill-bar {
-    margin: 0 1em;
-}
-.skill-area, .skill-percent {
-    margin: 0;
-}
-#experience-timeline, #education-timeline, #awards-timeline {
-	padding: 0;
-	margin: 0;
-}
-.cd-timeline-block {
-	margin: 0;
-	padding: 0;
-}
-.cd-timeline-content {
-	padding: 0 1em;
-}
-.cd-timeline-content ul {
-	padding: 0 1em;
-}
-.cd-timeline-content h5 {
-	padding: 0;
-	margin-bottom: 0;
-}
-.cd-timeline-content .cd-date {
-	opacity: 0.9;
-}
-.hobbies-items {
-	margin: 0;
-	padding: 0 0.8em;
-}
-.hobbies-items li {
-	padding: 0;
-}
-.hobbies-items li p {
-	line-height: 1.2;
-}
-.print-ad {
-	display: block;
-}
-.printable, .about-summary, .printable-description {
-	display: block;
-	text-align: left;
-	margin: 0 1em;
-	padding: 0.5em 0;
-	font-size: 1em;
-}
-
-}
-
-/* Presume Colors */
+* 	background: none !important;
+* 		color: black !important;
+* 			box-shadow: none !important;
+* 				text-shadow: none !important;
+* 					filter: none !important;
+* 						-ms-filter: none !important;
+* 						} 
+* 						a, a:visited {
+* 							text-decoration: underline;
+* 							}
+* 							a[href]:after {
+* 								content: " (" attr(href) ")"; 
+* 								} 
+* 								a[href="#"], a[href="javascript:"] {
+* 									content: "";
+* 									}
+* 									body {
+* 										font-family: 'Open Sans', sans-serif;
+* 											font-size: 1em;
+* 											}
+* 											.center-post, .skills-items, .hobbies-items {
+* 												text-align: left;
+* 												}
+* 												header, .mm-fixed-top, #profile-photo, .social-card i, .see-address, .print-page, 
+* 												.download-cv, .about-description, .skill-percent, #portfolio, .cd-testimonials-wrapper, .cd-testimonials-all, 
+* 												.hobbies-items li a, .footer {
+* 													display: none;
+* 													}
+* 													#section-about, #section-skills, #section-experience, #section-education, #section-awards, #section-hobbies, #section-references {
+* 														padding: 1px;
+* 														}
+* 														#about-head h3, #skills-head h3, #experience-head h3, #education-head h3, #awards-head h3, #hobbies-head h3, #references-head h3 {
+* 															font-size: 20px;
+* 																text-align: left;
+* 																	padding-top: 0;
+* 																		margin-bottom: 0;
+* 																			line-height: 1;
+* 																			}
+* 																			.site-title, #header-image, #header-image2 {
+* 																				padding: 0;
+* 																					margin-top: 1px;
+* 																					}
+* 																					.user-title, .social-card, .social-card a {
+* 																						padding: 0;
+* 																						}
+* 																						.social-card a[href]:after {
+* 																							content: " " attr(href) " ";
+* 																								padding-right: 5px;
+* 																								} 
+* 																								.skills-items li {
+* 																									padding: 0;
+* 																									}
+* 																									.skill1-title {
+* 																										padding: 0 0.5em;
+* 																											margin: 0.6em 0;
+* 																											}
+* 																											.skill2-title {
+* 																												padding: 0 0.5em;
+* 																													margin: 0.1em 0;
+* 																													}
+* 																													.skill-bar {
+* 																													    margin: 0 1em;
+* 																													    }
+* 																													    .skill-area, .skill-percent {
+* 																													        margin: 0;
+* 																													        }
+* 																													        #experience-timeline, #education-timeline, #awards-timeline {
+* 																													        	padding: 0;
+* 																													        		margin: 0;
+* 																													        		}
+* 																													        		.cd-timeline-block {
+* 																													        			margin: 0;
+* 																													        				padding: 0;
+* 																													        				}
+* 																													        				.cd-timeline-content {
+* 																													        					padding: 0 1em;
+* 																													        					}
+* 																													        					.cd-timeline-content ul {
+* 																													        						padding: 0 1em;
+* 																													        						}
+* 																													        						.cd-timeline-content h5 {
+* 																													        							padding: 0;
+* 																													        								margin-bottom: 0;
+* 																													        								}
+* 																													        								.cd-timeline-content .cd-date {
+* 																													        									opacity: 0.9;
+* 																													        									}
+* 																													        									.hobbies-items {
+* 																													        										margin: 0;
+* 																													        											padding: 0 0.8em;
+* 																													        											}
+* 																													        											.hobbies-items li {
+* 																													        												padding: 0;
+* 																													        												}
+* 																													        												.hobbies-items li p {
+* 																													        													line-height: 1.2;
+* 																													        													}
+* 																													        													.print-ad {
+* 																													        														display: block;
+* 																													        														}
+* 																													        														.printable, .about-summary, .printable-description {
+* 																													        															display: block;
+* 																													        																text-align: left;
+* 																													        																	margin: 0 1em;
+* 																													        																		padding: 0.5em 0;
+* 																													        																			font-size: 1em;
+* 																													        																			}
+*
+* 																													        																			}
+*
+*/* Presume Colors */
 
 /* Contents
-===========================        
-	#General
-	#Preloader
-	#SideMenu
-	#Header
-	#About
-	#Skills
-	#Experience
-	#Education
-	#Awards
-	#Hobbies
-	#References
-	#Portfolio
-	#Footer
-*/
+ * ===========================        
+ * 	#General
+ * 		#Preloader
+ * 			#SideMenu
+ * 				#Header
+ * 					#About
+ * 						#Skills
+ * 							#Experience
+ * 								#Education
+ * 									#Awards
+ * 										#Hobbies
+ * 											#References
+ * 												#Portfolio
+ * 													#Footer
+ * 													*/
 
 /* General */
 body {
