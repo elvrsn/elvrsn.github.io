@@ -2429,6 +2429,122 @@ header nav a:last-child {
 }
 
 /* Media Queries */
+
+@media (min-width: 1281px) {
+#header {
+	height: 0;
+}
+}
+
+@media (min-width: 981px) and (max-width: 1280px) {
+body {
+	padding-top:0;
+}
+#experience, #education, #projects {
+	max-width: 800px;
+}
+.footer-copyright, .footer-attribution, .footer-attribution {
+	padding: 10px;
+}
+}
+
+@media (min-width: 481px) and (max-width: 980px) {
+body {
+	padding-top:0;
+}
+header > div, header > div h1, header nav {
+	height: auto; width: auto;
+	display: block; text-align: center;
+}
+#section-about, #section-skills, #section-experience, #section-education, 
+#section-awards, #section-hobbies, #section-references, #section-portfolio {
+	padding: 10px;
+}
+#about-head h3, #skills-head h3, #experience-head h3, #education-head h3, 
+#awards-head h3, #hobbies-head h3, #references-head h3, #portfolio-head h3 {
+	font-size: 32px;
+	padding-top: 5px;
+}
+.skills-items li {
+	position: relative;
+	float: left;
+	overflow: hidden;
+	width: 100%;
+	width: -webkit-calc(100% / 1);
+	width: calc(100% / 1);
+}
+#experience, #education, #projects {
+	max-width: 700px;
+}
+.project-items li a div h5, .hobbies-items li a div h5{
+	font-size: 1.1em;
+}
+.hobbies-items i {
+	font-size: 1.1em;
+}
+.footer-copyright, .footer-attribution, .footer-attribution {
+	padding: 10px;
+}
+
+.footer {
+	margin-top: 40px;
+}
+}
+
+
+@media (min-width: 321px) and (max-width: 480px) {
+body {
+	padding-top:0;
+}
+header {
+	height: 10em;
+}
+header > div, header > div h1, header nav {
+	height: auto; width: auto;
+	display: block; text-align: center;
+}
+#section-about, #section-skills, #section-experience, #section-education, 
+#section-awards, #section-hobbies, #section-references, #section-portfolio {
+	padding: 10px;
+}
+#about-head h3, #skills-head h3, #experience-head h3, #education-head h3, 
+#awards-head h3, #hobbies-head h3, #references-head h3, #portfolio-head h3 {
+	font-size: 28px;
+	padding-top: 5px;
+}
+.skills-items li {
+	position: relative;
+	float: left;
+	overflow: hidden;
+	width: 100%;
+	width: -webkit-calc(100% / 1);
+	width: calc(100% / 1);
+}
+.cd-timeline-content img {
+	max-width: 240px;
+}
+.project-items li a div h5, .hobbies-items li a div h5{
+	font-size: 0.9em;
+	text-transform: lowercase;
+}
+.hobbies-items i {
+	font-size: 1.4em;
+}
+.social-icons {
+	float: left;
+}
+.footer-copyright .footer-attribution {
+	padding: 10px;
+}
+.footer-social {
+	padding: 10px;
+	float: left;
+}
+.footer {
+	margin-top: 40px;
+}
+}
+
 @media (max-width: 320px) {
 body {
 	padding-top:0;
@@ -2489,125 +2605,11 @@ header > div, header > div h1, header nav {
 }
 }
 
-@media (min-width: 321px) and (max-width: 480px) {
-body {
-	padding-top:0;
-}
-header {
-	height: 10em;
-}
-header > div, header > div h1, header nav {
-	height: auto; width: auto;
-	display: block; text-align: center;
-}
-#section-about, #section-skills, #section-experience, #section-education, 
-#section-awards, #section-hobbies, #section-references, #section-portfolio {
-	padding: 10px;
-}
-#about-head h3, #skills-head h3, #experience-head h3, #education-head h3, 
-#awards-head h3, #hobbies-head h3, #references-head h3, #portfolio-head h3 {
-	font-size: 28px;
-	padding-top: 5px;
-}
-.skills-items li {
-	position: relative;
-	float: left;
-	overflow: hidden;
-	width: 100%;
-	width: -webkit-calc(100% / 1);
-	width: calc(100% / 1);
-}
-.cd-timeline-content img {
-	max-width: 240px;
-}
-.project-items li a div h5, .hobbies-items li a div h5{
-	font-size: 0.9em;
-	text-transform: lowercase;
-}
-.hobbies-items i {
-	font-size: 1.4em;
-}
-.social-icons {
-	float: left;
-}
-.footer-copyright .footer-attribution {
-	padding: 10px;
-}
-.footer-social {
-	padding: 10px;
-	float: left;
-}
-.footer {
-	margin-top: 40px;
-}
-}
 
-@media (min-width: 481px) and (max-width: 980px) {
-body {
-	padding-top:0;
-}
-header > div, header > div h1, header nav {
-	height: auto; width: auto;
-	display: block; text-align: center;
-}
-#section-about, #section-skills, #section-experience, #section-education, 
-#section-awards, #section-hobbies, #section-references, #section-portfolio {
-	padding: 10px;
-}
-#about-head h3, #skills-head h3, #experience-head h3, #education-head h3, 
-#awards-head h3, #hobbies-head h3, #references-head h3, #portfolio-head h3 {
-	font-size: 32px;
-	padding-top: 5px;
-}
-.skills-items li {
-	position: relative;
-	float: left;
-	overflow: hidden;
-	width: 100%;
-	width: -webkit-calc(100% / 1);
-	width: calc(100% / 1);
-}
-#experience, #education, #projects {
-	max-width: 700px;
-}
-.project-items li a div h5, .hobbies-items li a div h5{
-	font-size: 1.1em;
-}
-.hobbies-items i {
-	font-size: 1.1em;
-}
-.footer-copyright, .footer-attribution, .footer-attribution {
-	padding: 10px;
-}
 
-.footer {
-	margin-top: 40px;
-}
-}
 
-@media (min-width: 981px) and (max-width: 1280px) {
-body {
-	padding-top:0;
-}
-.popup {
- 	font-size: 1.1em;
-}
-#experience, #education, #projects {
-	max-width: 800px;
-}
-.footer-copyright, .footer-attribution, .footer-attribution {
-	padding: 10px;
-}
-}
 
-@media (min-width: 1281px) {
-#header {
-	height: 0;
-}
-.popup {
- 	font-size: 1.1em;
-}
-}
+
 
 @media print {
 * {
