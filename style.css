@@ -2537,6 +2537,9 @@ header > div, header > div h1, header nav {
 	padding: 10px;
 	float: left;
 }
+.footer {
+	margin-top: 40px;
+}
 }
 
 @media (min-width: 481px) and (max-width: 980px) {
@@ -2575,6 +2578,9 @@ header > div, header > div h1, header nav {
 }
 .footer-copyright, .footer-attribution, .footer-attribution {
 	padding: 10px;
+}
+.footer {
+	margin-top: 40px;
 }
 }
 
