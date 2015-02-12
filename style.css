@@ -2106,25 +2106,25 @@ header nav a:last-child {
     -webkit-animation: animate-skill6 4s;
     -moz-animation: animate-skill6 4s;
     -o-animation: animate-skill6 4s;
-    width: 90%;
+    width: 60%;
     height: 50px;
     position: absolute;
 }
 @keyframes animate-skill6 {
     from {width: 10px;}
-	to {width: 90%}
+	to {width: 60%}
 }
 @-webkit-keyframes animate-skill6 {
     from {width: 10px;}
-	to {width: 90%}
+	to {width: 60%}
 }
 @-moz-keyframes animate-skill6 {
     from {width: 10px;}
-	to {width: 90%}
+	to {width: 60%}
 }
 @-o-keyframes animate-skill6 {
     from {width: 10px;}
-	to {width: 90%}
+	to {width: 60%}
 }
 /*Skill 7 */
 #skill7 {
@@ -2132,25 +2132,25 @@ header nav a:last-child {
     -webkit-animation: animate-skill7 4s;
     -moz-animation: animate-skill7 4s;
     -o-animation: animate-skill7 4s;
-    width: 90%;
+    width: 60%;
     height: 50px;
     position: absolute;
 }
 @keyframes animate-skill7 {
     from {width: 10px;}
-	to {width: 90%}
+	to {width: 60%}
 }
 @-webkit-keyframes animate-skill7 {
     from {width: 10px;}
-	to {width: 90%}
+	to {width: 60%}
 }
 @-moz-keyframes animate-skill7 {
     from {width: 10px;}
-	to {width: 90%}
+	to {width: 60%}
 }
 @-o-keyframes animate-skill7 {
     from {width: 10px;}
-	to {width: 90%}
+	to {width: 60%}
 }
 /*Skill 8 */
 #skill8 {
@@ -2158,25 +2158,25 @@ header nav a:last-child {
     -webkit-animation: animate-skill8 5s;
     -moz-animation: animate-skill8 5s;
     -o-animation: animate-skill8 5s;
-    width: 80%;
+    width: 60%;
     height: 50px;
     position: absolute;
 }
 @keyframes animate-skill8 {
     from {width: 10px;}
-	to {width: 80%}
+	to {width: 60%}
 }
 @-webkit-keyframes animate-skill8 {
     from {width: 10px;}
-	to {width: 80%}
+	to {width: 60%}
 }
 @-moz-keyframes animate-skill8 {
     from {width: 10px;}
-	to {width: 80%}
+	to {width: 60%}
 }
 @-o-keyframes animate-skill8 {
     from {width: 10px;}
-	to {width: 80%}
+	to {width: 60%}
 }
 .skill-area {
     z-index: 1;
