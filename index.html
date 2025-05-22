@@ -1,312 +1,308 @@
 <!DOCTYPE html>
-<html class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients no-cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths" style="" lang="en">
-  <head>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>About Me :: Elavarasan</title>
-	<meta name="description" content="Presume is a printable e-Resume Template">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.2/normalize.css" rel="stylesheet" type="text/css">
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-	<link href="style.css" rel="stylesheet" type="text/css">
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-  </head>
-  <body>
-              
-    <div style="display: none;" id="loader">
-	  <div style="display: none;" class="loader-image">
-	    <div class="spinner2">
-		  <div class="rect1"></div>
-		  <div class="rect2"></div>
-		  <div class="rect3"></div>
-		  <div class="rect4"></div>
-		  <div class="rect5"></div>
-	    </div>
-	  </div>
-	</div>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Elavarasan M</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; /* Updated font stack */
+            margin: 0;
+            background-color: #f0f0f0; /* Fallback background for outside the resume */
+            color: #333;
+            line-height: 1.6;
+            display: flex;
+            justify-content: center;
+            padding: 20px 0;
+        }
+        .resume-container {
+            display: flex;
+            width: 900px; /* Standard resume width */
+            min-height: 1100px; /* Approximate height */
+            background-color: #fff;
+            box-shadow: 0 0 20px rgba(0,0,0,0.15);
+        }
+        .sidebar {
+            background-color: #044365; /* Updated theme color */
+            color: #fff;
+            width: 35%; /* Adjust width as needed */
+            padding: 30px 25px;
+            box-sizing: border-box;
+        }
+        .main-content {
+            width: 65%; /* Adjust width as needed */
+            padding: 40px 30px;
+            box-sizing: border-box;
+            background-color: #fff;
+        }
 
-   	<header>
-   	  <div id="logo">
-        <a href="#" title="Logo">
-          <img src="ela.png" alt="Elavarasan">
-        </a>
-      </div>
-      <nav class="header-links">
-        <a href="#about">About</a>
-		<a href="#skills">Skills</a>
-		<a href="#experience">Experience</a>
-		<a href="#education">Education</a>
-		<a href="#projects">Projects</a>
-		<a href="#hobbies">Hobbies</a>
-      </nav>
-    </header>
+        /* Sidebar Styles */
+        .profile-image-container {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .sidebar img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 4px solid #fff;
+            object-fit: cover; /* Ensures the image covers the area, maintaining aspect ratio */
+        }
+        .sidebar h2 {
+            font-size: 1.3em;
+            color: #fff;
+            text-transform: uppercase;
+            border-bottom: 1px solid #2C6B8D; /* Updated lighter shade of theme color */
+            padding-bottom: 8px;
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+        .sidebar p, .sidebar li {
+            font-size: 0.9em;
+            margin-bottom: 8px;
+        }
+        .sidebar a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .sidebar a:hover {
+            text-decoration: underline;
+        }
+        .sidebar ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        .sidebar #contact p {
+             word-break: break-word;
+        }
+        .sidebar #education h2 {
+            margin-top: 20px;
+        }
+        .sidebar #education div, .sidebar #skills div  {
+            margin-bottom: 20px;
+        }
+        .sidebar #education h3 {
+            font-size: 1em;
+            margin-bottom: 3px;
+            /* color: #ddd; */
+        }
+         .sidebar #education p {
+            font-size: 0.85em;
+            margin-bottom: 2px;
+            /* color: #ddd; */
+        }
 
-	<section id="about">
-      <div class="container">
-        <div class="heading"></div>
-        <div id="section-about">
-          <div id="about-head"><h3>Summary</h3></div>
-		  <span class="border"></span>
-		  <p class="about-summary">A full-stack lead developer with a passion for building and thoroughly testing scalable web applications, microservices, and mobile apps. Proven ability to work with complex back-end systems, including real-time decision engines that process thousands of variables in parallel.</p>						
-        </div>
-      </div>
-    </section>
 
-	<section id="skills" class="clearfix">
-	  <div class="container">
-	    <div id="section-skills">
-		  <div id="skills-head"><h3>Skills</h3></div>
-		  <span class="border"></span>
-		  <ul class="skills-items">
-		    <li>
-			  <div id="skills1">
-			    
-				<div class="skill-bar">
-				  <div id="skill1"> 
-				    <span class="skill-area">Python</span>
-					<span class="skill-percent">90%</span>
-				  </div>
-				</div>
+        /* Main Content Styles */
+        .main-header {
+            margin-bottom: 30px;
+        }
+        .main-header h1 {
+            font-size: 2.8em;
+            color: #044365; /* Updated theme color */
+            margin: 0 0 5px 0;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+        .main-header .title {
+            font-size: 1.0em;
+            color: #555;
+            margin: 0;
+            font-weight: 500;
+        }
+        .main-content h2 { /* For "Profile", "Work Experience" */
+            font-size: 1.5em;
+            color: #044365; /* Updated theme color */
+            text-transform: uppercase;
+            border-bottom: 2px solid #044365; /* Updated theme color */
+            padding-bottom: 8px;
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+        .main-content #profile p, .main-content #work-experience ul li p {
+            font-size: 0.95em;
+            margin-bottom: 10px;
+        }
+        .main-content #work-experience .job {
+            margin-bottom: 25px;
+        }
+        .main-content #work-experience .job-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 5px;
+        }
+        .main-content #work-experience h3 {
+            font-size: 1.2em;
+            color: #333;
+            margin: 0;
+            font-weight: 600;
+        }
+        .main-content #work-experience .job-subheader {
+             font-size: 0.95em;
+             color: #555;
+             font-style: italic;
+             margin-bottom: 8px;
+        }
+        .main-content #work-experience .dates {
+            font-size: 0.9em;
+            color: #044365; /* Updated theme color */
+            font-weight: 500;
+            white-space: nowrap;
+        }
+        .main-content #work-experience ul {
+            list-style-type: disc;
+            padding-left: 20px;
+            margin-top: 5px;
+        }
+        .main-content #work-experience ul li {
+            margin-bottom: 8px;
+            font-size: 0.9em;
+        }
+        .main-content section {
+            margin-bottom: 30px;
+        }
 
-				<div class="skill-bar">
-				  <div id="skill2"> 
-				    <span class="skill-area">Django</span>
-					<span class="skill-percent">85%</span>
-				  </div>
-				</div>
+    </style>
+</head>
+<body>
+    <div class="resume-container">
+        <aside class="sidebar">
+            <div class="profile-image-container">
+                <img src="profile.jpg" alt="Elavarasan M - Profile Picture">
+            </div>
 
-				<div class="skill-bar">
-				  <div id="skill3"> 
-					<span class="skill-area">MySQL</span>
-					<span class="skill-percent">60%</span>
-				  </div>
-				</div>
+            <section id="contact">
+                <h2>Contact</h2>
+                <p><strong>Email:</strong> <a href="mailto:tm.elavarasan@gmail.com">tm.elavarasan@gmail.com</a></p>
+                <p><strong>Phone:</strong> 9443295730</p>
+                <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/elavarasanm/" target="_blank">linkedin.com/in/elavarasanm</a></p>
+            </section>
 
-				<div class="skill-bar">
-				  <div id="skill4"> 
-				    <span class="skill-area">Apache</span>
-					<span class="skill-percent">65%</span>
-				  </div>
-				</div>
-			  </div>
-			</li>
-						
-			<li>
-			  <div id="skills2">
-			  
-			    <div class="skill-bar">
-			      <div id="skill5"> 
-				    <span class="skill-area">HTML & CSS</span>
-				    <span class="skill-percent">70%</span>
-				  </div>
-			    </div>
+            <section id="education">
+                <h2>Education</h2>
+                <div>
+                    <h3>PSG College of Technology</h3>
+                    <p>Bachelor of Technology (B.Tech.), Information Technology</p>
+                    <p>2007 - 2011</p>
+                    <p>Grade: 8.1</p>
+                    <!-- <p>Activities: Member of ISTE, IT Association, Student's Union</p> -->
+                </div>
+            </section>
 
-			    <div class="skill-bar">
-			      <div id="skill6"> 
-				    <span class="skill-area">Objective C</span>
-			  	    <span class="skill-percent">60%</span>
-				  </div>
-			    </div>
-
-			    <div class="skill-bar">
-			      <div id="skill7"> 
-				    <span class="skill-area">Xcode</span>
-				    <span class="skill-percent">60%</span>
-				  </div>
-			    </div>
-
-			    <div class="skill-bar">
-			      <div id="skill8"> 
-				    <span class="skill-area">Android SDK</span>
-				    <span class="skill-percent">60%</span>
-				  </div>
-			    </div>
-	
-		      </div>
-		    </li>
-		  </ul>
-		</div>
-	  </div>
-	</section>
-
-    <section id="experience">
-      <div class="container">
-        <div id="section-experience">
-          <div id="experience-head"><h3>Experience</h3></div>
-		  <span class="border"></span>
-          <div id="experience-timeline">
-          
-            <div class="cd-timeline-block">
-              <div class="cd-timeline-img cd-left">
-                <img src="asterisk_font.png" alt="asterisk icon">
-              </div>
-              <div class="cd-timeline-content">
-                <h5>Senior Software Engineer, Global Analytics</h5>
+            <section id="skills">
+                <h2>Skills</h2>
                 <ul>
-                  <li>Develop iOS mobile application for Lending Stream with Django/Python server as backend.</li>
-                  <li>Developed iOS e-commerce mobile application prototype with Magento/PHP server as backend.</li>
-                  <li>Gather the requirements for e-commerce site from product team and document the technical design.</li>
-                  <li>Extend the magento core modules to built a e-commerce site.</li>
-                  <li>Configured Elastic Compute Cloud (EC2) with Load balancers and security group in AWS.</li>
+                    <li>ReactJS</li>
+                    <li>Redux</li>
+                    <li>NodeJS</li>
+                    <li>Express</li>
+                    <li>Python</li>
+                    <li>Flask</li>
+                    <li>iOS Development</li>
                 </ul>
-                <span class="cd-date">Chennai, April 2014 - Present</span>
-              </div>
-            </div>
-             
-            <div class="cd-timeline-block">
-              <div class="cd-timeline-img cd-right">
-                <img src="asterisk_font.png" alt="asterisk icon">
-              </div>
-              <div class="cd-timeline-content">
-                <h5>Software Engineer, Global Analytics</h5>
-                <ul>
-                  <li>Worked on developing various models for customer credit analysis.</li>
-                  <li>Developed websites in python using django framework.</li>
-                  <li>Optimized various python code and scripts.</li>
-                  <li>Worked on building website templates from wireframes using HTML, CSS using the Bootstrap 3.0 framework.</li>
-                  <li>Worked on various internal product developments.</li>
-                </ul>
-                <span class="cd-date">Chennai, August 2012 - March 2014</span>
-              </div>
-            </div>
-            
-            <div class="cd-timeline-block">
-              <div class="cd-timeline-img cd-left">
-                <img src="asterisk_font.png" alt="asterisk icon">
-              </div>
-              <div class="cd-timeline-content">
-                <h5>Assistant System Engineer, Tata Consultancy Services</h5>
-                <ul>
-                  <li>Trained in Unix/C++ during ILP.</li>
-                  <li>Worked for Woolworths - Big W e-commerce website to develop layby self service using Java J2EE and Blue Martini.</li>
-                </ul>
-                <span class="cd-date">Chennai, August 2011 - July 2012</span>
-              </div>
-            </div>
-             
-          </div>
-        </div>
-        <div class="clearfix"></div>
-      </div>
-    </section>
-        
-    <section id="education">
-      <div class="container">
-        <div id="section-education">
-          <div id="education-head"><h3>Education</h3></div>
-		  <span class="border"></span>
-          <div id="education-timeline">
-          
-            <div class="cd-timeline-block">
-              <div class="cd-timeline-img cd-left">
-                <img src="asterisk_font.png" alt="asterisk icon">
-              </div>
-              <div class="cd-timeline-content">
-                <h5>PSG College of Technology</h5>
-				<p class="program">(B.Tech.) Information Technology</p>
-				<p>Graduated with Bachelors Degree in Information Technology from Anna University.</p>
-                <span class="cd-date">Coimbatore, Tamil Nadu, August 2007 - May 2011</span>
-              </div>
-            </div>
-             
-            <div class="cd-timeline-block">
-              <div class="cd-timeline-img cd-right">
-                <img src="asterisk_font.png" alt="asterisk icon">
-              </div>
-              <div class="cd-timeline-content">
-                <h5>Kurinji Higher Secondary School</h5>
-				<p class="program">Physics, Chemistry, Mathematics</p>
-				<p>Completed Higher Secondary State Board Exams with 96.25%.</p>
-                <span class="cd-date">Namakkal, Tamil Nadu, July 2005 - March 2007</span>
-              </div>
-            </div>
-             
-          </div>
-        </div>
-      </div>
-    </section>
-    
-    <section id="projects">
-      <div class="container">
-        <div id="section-education">
-          <div id="education-head"><h3>Personal Projects</h3></div>
-		  <span class="border"></span>
-          <div id="education-timeline">
-            
-            <div class="cd-timeline-block">
-              <div class="cd-timeline-img cd-left">
-                <img src="asterisk_font.png" alt="asterisk icon">
-              </div>
-              <div class="cd-timeline-content">
-                <h5>Share Thoughts</h5>
-				<p>In the world, where you need to create user account or login using 
-				existing other accounts to share or post anything, Share Thoughts lets 
-				you to do without them. Here you can express your thoughts anonymously, 
-				view or search others' shared thoughts and share them using Facebook.</p>
-				<p class="program">Python, Django, MySQL, HTML, CSS and Javascript</p>
-                <span class="cd-date">Share Thoughts, April 2014 - July 2014</span>
-              </div>
-            </div>
-             
-            <div class="cd-timeline-block">
-              <div class="cd-timeline-img cd-right">
-                <img src="asterisk_font.png" alt="asterisk icon">
-              </div>
-              <div class="cd-timeline-content">
-                <h5>Share Thoughts - Android Application</h5>
-				<p>Android Application for the website Share Thoughts, lets you to see the 
-				recently shared thoughts and share your own thoughts instantly.</p>
-				<p class="program">Android SDK and Java.</p>
-                <span class="cd-date">Share Thoughts - Android Application, July 2014</span>
-              </div>
-            </div>
-             
-          </div>
-        </div>
-      </div>
-    </section>
+            </section>
 
-	<section id="hobbies">
-      <div class="container">
-        <div class="heading"></div>
-        <div id="section-hobbies">
-          <div id="hobbies-head"><h3>Hobbies</h3></div>
-		  <span class="border"></span>
-		  <ul class="hobbies-items">
-		    <li>
-			  <a href="#hobbies"><i class="fa fa-gamepad fa-3x" title="reading"></i></a>
-			  <p>Games</p>
-			</li>
-			<li>
-			  <a href="#hobbies"><i class="fa fa-music fa-3x" title="music"></i></a>
-			  <p>Music</p>
-			</li>
-			<li>
-			  <a href="#hobbies"><i class="fa fa-film fa-3x" title="movies"></i></a>
-			  <p>Movies</p>
-			</li>
-			<li>
-			  <a href="#hobbies"><i class="fa fa-camera fa-3x" title="photography"></i></a>
-			  <p>Photography</p>
-			</li>
-		  </ul>
-		  <div class="heading"></div>
-        </div>
-      </div>
-    </section>
+            <section id="languages">
+                <h2>Languages</h2>
+                <ul>
+                    <li>English</li>
+                    <li>Tamil</li>
+                </ul>
+            </section>
+        </aside>
 
-	<div class="footer">
-	  <div class="container">
-		<div class="footer-copyright">© 2015 Elavarasan</div>
-		<div class="footer-social">
-			<a href="https://twitter.com/elvrsn" target="_blank" title="Twitter"><i class="fa fa-twitter-square fa-2x"></i></a>
-			<a href="https://github.com/elvrsn/" target="_blank" title="Github"><i class="fa fa-github fa-2x"></i></a>
-			<a href="http://www.linkedin.com/in/elavarasanm" target="_blank" title="Linkedin"><i class="fa fa-linkedin-square fa-2x"></i></a>
-			<a href="https://plus.google.com/+ElavarasanMurugesan/" target="_blank" title="Google Plus"><i class="fa fa-google-plus fa-2x"></i></a>
-		</div>
-	  </div>
-	</div>
-	
-  </body>
-</html>
+        <main class="main-content">
+            <header class="main-header">
+                <h1>Elavarasan M</h1>
+                <p class="title">Full-Stack and iOS | Lead Developer and Architect | ReactJS, Redux, NodeJS, Express, iOS, Python, Flask, MS Teams integration | Building Scalable Web & Mobile Apps for Fintech/Enterprise</p>
+            </header>
+
+            <section id="profile">
+                <h2>Profile</h2>
+                
+                <p>I am a full stack lead developer with experience in building web applications, micro services and mobile applications and unit testing them to the depth till post production monitoring.</p>
+                <p>I have experience in working with complex back-end systems such as a real time decision engine where decisions has to be made by computing thousands of variables in parallel, pulling data from multiple third party vendors and executing complex rule sets.</p>
+                <!-- <p>Specializing in ReactJS, Redux, NodeJS, Express, iOS, Python, Flask, and MS Teams integration for Fintech/Enterprise solutions.</p> -->
+            </section>
+
+            <section id="work-experience">
+                <h2>Work Experience</h2>
+                <div class="job">
+                    <div class="job-header">
+                        <h3>Principal Software Engineer</h3>
+                        <span class="dates">Nov 2021 - Present</span>
+                    </div>
+                    <p class="job-subheader"><strong>Dell Technologies</strong> | Bengaluru, Karnataka, India &middot; On-site</p>
+                    <ul>
+                        <li>Leading development of scalable iOS and web enterprise applications.</li>
+                        <li>Guiding and mentoring team members on best practices and technical challenges.</li>
+                        <li>Skills: Node.js, ReactJS, iOS Development.</li>
+                    </ul>
+                </div>
+                <div class="job">
+                     <div class="job-header">
+                        <h3>Senior Software Engineer</h3>
+                        <span class="dates">Jun 2019 - Oct 2021</span>
+                    </div>
+                    <p class="job-subheader"><strong>Dell Technologies</strong> | Bengaluru, Karnataka, India &middot; On-site</p>
+                    <ul>
+                        <li>Primarily focused on iOS Development and Node.js projects.</li>
+                    </ul>
+                </div>
+                <div class="job">
+                    <div class="job-header">
+                        <h3>Team Lead</h3>
+                        <span class="dates">Jan 2019 - May 2019</span>
+                    </div>
+                    <p class="job-subheader"><strong>GAIN Credit (formerly Global Analytics)</strong> | Chennai, Tamil Nadu, India &middot; On-site</p>
+                     <ul><li>Led a team of mobile and backend developers.</li></ul>
+                </div>
+                <div class="job">
+                    <div class="job-header">
+                        <h3>Senior Software Engineer</h3>
+                        <span class="dates">Apr 2014 - Dec 2018</span>
+                    </div>
+                    <p class="job-subheader"><strong>GAIN Credit (formerly Global Analytics)</strong> | Chennai, Tamil Nadu, India &middot; On-site</p>
+                    <ul>
+                        <li>Developed iOS mobile applications (Lending Stream, Drafty) with Django/Python backend.</li>
+                        <li>Developed and deployed Django/Python web services for mobile apps.</li>
+                        <li>Created BDD test automation suites (Appium, Cucumber) for mobile apps.</li>
+                        <li>Collaborated with business and product teams on requirements and functional design.</li>
+                        <li>Ensured code quality with static analysis tools and maintained high code coverage.</li>
+                        <li>Managed CI/CD pipelines for timely production releases.</li>
+                    </ul>
+                </div>
+                 <div class="job">
+                    <div class="job-header">
+                        <h3>Software Engineer</h3>
+                        <span class="dates">Aug 2012 - Mar 2014</span>
+                    </div>
+                    <p class="job-subheader"><strong>GAIN Credit (formerly Global Analytics)</strong> | Chennai, Tamil Nadu, India &middot; On-site</p>
+                    <ul>
+                        <li>Implemented models for Lending Stream Underwriting Engine.</li>
+                        <li>Established Python-based communication with data providers for credit analysis.</li>
+                        <li>Optimized Python offline code and scripts.</li>
+                        <li>Developed backend for AnyFunds e-commerce pilot (Python, Django, MySQL).</li>
+                        <li>Built website templates from wireframes (HTML, CSS, Bootstrap 3.0).</li>
+                        <li>Contributed to various internal product developments.</li>
+                        <li>Developed a mock third-party data provider service (Python, Bottle, MySQL).</li>
+                    </ul>
+                </div>
+                <div class="job">
+                    <div class="job-header">
+                        <h3>Assistant System Engineer</h3>
+                        <span class="dates">Aug 2011 - Aug 2012</span>
+                    </div>
+                     <p class="job-subheader"><strong>Tata Consultancy Services</strong> | Chennai, Tamil Nadu, India &middot; On-site</p>
+                    <ul>
+                        <li>Learned Unix/C++ and developed a C++ application for telephone postpaid billing during ILP.</li>
+                        <li>Worked on Woolworths - Big W e-commerce website to develop layby self-service (Java J2EE, Blue Martini).</li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+    </div>
+    <!-- Removed the old footer as the new design doesn't have a similar one -->
+</body>
+</html> 
